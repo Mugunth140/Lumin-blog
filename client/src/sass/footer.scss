@@ -1,8 +1,14 @@
 .footer-container {
     @include flex;
-    height: 10vh;
+    height: 8vh;
     width: 100%;
+    color: var(--primary);
     position: fixed;
     bottom: 0;
-    background-color: var(--grey);
+    background-color: var(--secondary);
+
+    .creator {
+        text-decoration: none;
+        //color: var(--secondary);
+    }
 }

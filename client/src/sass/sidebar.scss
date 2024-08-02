@@ -1,0 +1,15 @@
+.category-section-container {
+    height: 100%;
+    width: clamp(100px,10vw,200px);
+    //background-color: var(--grey);
+    border-right: 0.5px solid var(--grey);
+    position: fixed;
+    top: 8vh;
+    left: 0;
+
+    .category-section {
+        @include flex;
+        flex-direction: column;
+        padding: 1em;
+    }
+}
